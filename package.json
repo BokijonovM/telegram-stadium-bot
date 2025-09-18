@@ -1,0 +1,16 @@
+{
+    "name": "telegram-stadium-bot",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "src/bot.js",
+    "scripts": {
+        "start": "node src/bot.js",
+        "dev": "node --watch src/bot.js"
+    },
+    "dependencies": {
+        "better-sqlite3": "^9.4.0",
+        "dayjs": "^1.11.13",
+        "grammy": "^1.22.4",
+        "dotenv": "^16.4.5"
+    }
+}
