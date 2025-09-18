@@ -32,7 +32,6 @@ function dayPickerKb(showAdmin = false) {
     .text('Mening bandlarim', 'my:bookings').row()
     .text('Yordam', 'help').row();
   if (showAdmin) kb.text('Admin', 'admin:menu').row();
-  kb.text('◀️ Orqaga', 'back:root');
   return kb;
 }
 
